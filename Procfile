@@ -1,1 +1,1 @@
-web: ruby spotify_token_swap.rb
+web: bundle exec ruby spotify_token_swap.rb
