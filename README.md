@@ -7,9 +7,9 @@ To use the new [Spotify SDK](https://github.com/spotify/ios-sdk) we are required
 Setup
 =======
 
-* Sign up for [Heroku](https://signup.heroku.com/signup/dc) and follow the first two [Getting Started Steps](https://devcenter.heroku.com/articles/getting-started-with-ruby#introduction)
+* Sign up for [Heroku](https://signup.heroku.com/) and follow the first two [Getting Started Steps](https://devcenter.heroku.com/articles/getting-started-with-ruby#introduction)
 
-Unless you are expecting **massive** traffic, the free plan will work for you.
+Unless you are expecting **massive** traffic, the free plan will work for you. Be patient, it can take up to 60 min until you get the confirmation Mail from Heroku.
 
 * [Clone](https://devcenter.heroku.com/articles/getting-started-with-ruby#prepare-the-app) this Repository
 
