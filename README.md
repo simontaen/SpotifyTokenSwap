@@ -43,9 +43,9 @@ curl https://peaceful-sierra-1249.herokuapp.com
 and you should get a `<h1>Not Found</h1>` back. Also check the logs should show something like
 
 ```
-app[web.1]: ip-10-147-165-35.ec2.internal - - [22/Nov/2014:14:39:10 UTC] "GET / HTTP/1.1" 404 18
+app[web.1]: ip-10-147-165-35.ec2.internal - - [<timestamp>] "GET / HTTP/1.1" 404 18
 app[web.1]: - -> /
-app[web.1]: <your-ip> - - [22/Nov/2014 14:39:10] "GET / HTTP/1.1" 404 18 0.0005
+app[web.1]: <your-ip> - - [<timestamp>] "GET / HTTP/1.1" 404 18 0.0005
 heroku[router]: at=info method=GET path="/" host=peaceful-sierra-1249.herokuapp.com <...>
 ```
 
