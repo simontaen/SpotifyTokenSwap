@@ -35,17 +35,15 @@ require 'encrypted_strings'
 #                   tokenSwapServiceEndpointAtURL:swapServiceURL
 #                                        callback:callback];
 #
+# Find your app at https://developer.spotify.com/my-applications/#!/applications
 
-print "\e[31m------------------------------------------------------\e[0m\n"
-print "\e[31mYou're using example credentials, please replace these\e[0m\n"
-print "\e[31mwith your own and remove this silly warning.\e[0m\n"
-print "\e[31m------------------------------------------------------\e[0m\n"
-print "\7\7"
-sleep(2)
-CLIENT_ID = "e6695c6d22214e0f832006889566df9c"
-CLIENT_SECRET = "29eb02041ba646179a1189dccac112c7"
+CLIENT_ID = "e6695c6d22214e0f832006889566df9c" # Get it from Spotify
+CLIENT_SECRET = "29eb02041ba646179a1189dccac112c7" # Get it from Spotify
+CLIENT_CALLBACK_URL = "spotifyiossdkexample://" # Get it from Spotify
+
+# I don't think the secret should be changed...
 ENCRYPTION_SECRET = "cFJLyifeUJUBFWdHzVbykfDmPHtLKLGzViHW9aHGmyTLD8hGXC"
-CLIENT_CALLBACK_URL = "spotifyiossdkexample://"
+
 AUTH_HEADER = "Basic " + Base64.strict_encode64(CLIENT_ID + ":" + CLIENT_SECRET)
 SPOTIFY_ACCOUNTS_ENDPOINT = URI.parse("https://accounts.spotify.com")
 
