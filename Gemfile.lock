@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    encrypted_strings (0.3.3)
     rack (1.5.2)
     rack-protection (1.5.3)
       rack
@@ -14,4 +15,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  encrypted_strings
   sinatra
