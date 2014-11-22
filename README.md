@@ -72,5 +72,7 @@ Convenience
 
 I personally will host an instance on Heroku for public use as it is very annoying to go through setting everything up when you just want to try something with the SDK. I'll keep it on the free plan and won't pay much attention to it. We'll see how it goes but if the service it getting slammed it'll crash, so be polite.
 
-`https://peaceful-sierra-1249.herokuapp.com/swap`
-`https://peaceful-sierra-1249.herokuapp.com/refresh`
+```
+https://peaceful-sierra-1249.herokuapp.com/swap
+https://peaceful-sierra-1249.herokuapp.com/refresh
+```
